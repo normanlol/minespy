@@ -1,0 +1,28 @@
+{
+  "name": "minespy",
+  "version": "1.0.0",
+  "description": "minecraft bot made to show spawn, written in NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/minespy.git"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "server"
+  ],
+  "author": "n0rmancodes",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/minespy/issues"
+  },
+  "homepage": "https://github.com/normanlol/minespy#readme",
+  "dependencies": {
+    "mineflayer": "^2.34.0",
+    "prismarine-viewer": "^1.6.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "serverHost": "some.cool.ip.here",
+    "serverPort": 8000,
+    "imageServerPort": 8010,
+    "firstPerson": true,
+    "mcUsername": "someUserName",
+    "mcPassword": "P@ssw0rdH3re"
+}
