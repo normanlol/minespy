@@ -21,3 +21,16 @@ mcBot.once("spawn", function () {
         firstPerson: config.firstPerson
     });
 })
+
+mcBot.on("kicked", function (reason) {
+    var reason = JSON.parse(reason);
+    var reasonParsed = "";
+    for (var c in reason.extra) {
+        var reasonParsed = reasonParsed + reason.extra[c].text;
+    }
+    console.log(reasonParsed);
+});
+
+mcBot.on("error", function(err) {
+    console.log(err);
+});
