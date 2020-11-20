@@ -6,5 +6,5 @@ MineSpy is a Minecraft bot that allows you to see your spawn (or elsewhere if yo
 - Simple to [install and configure](/docs/installation/README.md)
 - [Anyone can use](/LICENSE)
 
-## Screenshot examples
+## screenshot examples
 ![Example spawn](/docs/installation/screenshots/example.png)
